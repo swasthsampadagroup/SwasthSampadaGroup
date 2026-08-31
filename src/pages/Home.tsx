@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Heart, Leaf, Factory, Wind, Target, Eye, ShieldCheck } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import SectionHeading from '@/components/SectionHeading';
-import StatsBar from '@/components/StatsBar';
 import CTASection from '@/components/CTASection';
 
 const divisions = [

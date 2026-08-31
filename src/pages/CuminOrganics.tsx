@@ -1,4 +1,4 @@
-import { Factory, FlaskConical, Microscope, Package, Settings, Leaf, Award, TrendingUp, Beaker, ShieldCheck } from 'lucide-react';
+import { Factory, Microscope, Package, Settings, TrendingUp, ShieldCheck } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';

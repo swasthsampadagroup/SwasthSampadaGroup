@@ -16,7 +16,6 @@ import {
 
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';
-import CTASection from '@/components/CTASection';
 import { useReveal } from '@/hooks/useReveal';
 
 /* =========================================================
@@ -858,7 +857,7 @@ export default function SwasthSampadaHealthcare() {
                         duration-500
                         group-hover:scale-105
                       "
-                      onError={(e) => {
+                      onError={() => {
                         console.error(
                           `Medicine image not found: ${selectedMedicine.image}`
                         );

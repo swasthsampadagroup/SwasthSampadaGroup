@@ -122,67 +122,6 @@ const pharmaCapabilities = [
    COMMON BRANDS
 ========================================================= */
 
-const commonBrands = [
-  {
-    name: 'Common Brand Portfolio',
-    description:
-      'Pharmaceutical brands marketed through both Swasth Sampada Healthcare and Simpson Healthcare.',
-  },
-  {
-    name: 'Shared Healthcare Solutions',
-    description:
-      'Selected products supported through the combined healthcare and marketing network of both companies.',
-  },
-  {
-    name: 'Expanding Portfolio',
-    description:
-      'A growing portfolio of healthcare brands serving diverse therapeutic requirements.',
-  },
-];
-
-/* =========================================================
-   OWN MANUFACTURING BRANDS
-========================================================= */
-
-const manufacturingBrands = [
-  {
-    name: 'SS UTI',
-    description: 'An in-house pharmaceutical brand from our manufacturing portfolio.',
-  },
-  {
-    name: 'SS Zyne',
-    description: 'An own manufacturing brand developed for healthcare requirements.',
-  },
-  {
-    name: 'Z Fit',
-    description: 'A pharmaceutical brand within our own manufacturing portfolio.',
-  },
-  {
-    name: 'SS Baby C',
-    description: 'An own manufacturing brand focused on healthcare requirements.',
-  },
-  {
-    name: 'L-CO9-D',
-    description: 'A pharmaceutical product from our own manufacturing portfolio.',
-  },
-  {
-    name: 'SS Zyne Syrup',
-    description: 'A syrup formulation within our own manufacturing brand portfolio.',
-  },
-  {
-    name: 'Entrarich-10',
-    description: 'An own manufacturing pharmaceutical brand.',
-  },
-  {
-    name: 'Entrarich Capsule',
-    description: 'A capsule formulation from our own manufacturing portfolio.',
-  },
-  {
-    name: 'Simfert Max',
-    description: 'An own manufacturing pharmaceutical brand within our portfolio.',
-  },
-];
-
 /* =========================================================
    MAIN PHARMA PAGE
 ========================================================= */

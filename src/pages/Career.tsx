@@ -10,14 +10,11 @@ import {
   Phone,
   Send,
   ShieldCheck,
-  Sparkles,
   Target,
   TrendingUp,
   Users,
   WalletCards,
 } from 'lucide-react';
-
-import CTASection from '@/components/CTASection';
 import { useReveal } from '@/hooks/useReveal';
 
 /* =========================================================

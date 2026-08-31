@@ -1,4 +1,4 @@
-import { Wind, Zap, TrendingUp, Building2, Leaf, Sun, Battery, Factory } from 'lucide-react';
+import { Wind, Zap, TrendingUp, Building2, Leaf, Battery } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';

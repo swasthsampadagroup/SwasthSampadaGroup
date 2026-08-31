@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-import { ArrowRight, Target, Eye, ShieldCheck, Award, Users, Leaf, Lightbulb, Recycle, Heart, Sparkles } from 'lucide-react';
+import { Target, Eye, ShieldCheck, Award, Users, Leaf, Lightbulb, Recycle, Heart, Sparkles } from 'lucide-react';
 import { useReveal } from '@/hooks/useReveal';
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';

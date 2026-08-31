@@ -18,7 +18,6 @@ import {
 
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';
-import CTASection from '@/components/CTASection';
 
 /* =========================================================
    TYPES
