@@ -255,7 +255,7 @@ export default function SimpsonHealthcare() {
                 <div className="w-48 h-48 md:w-52 md:h-52 flex items-center justify-center bg-white">
 
                   <img
-                    src="/assets/Healthcare1.png"
+                    src="./assets/Healthcare1.png"
                     alt="Simpson Healthcare"
                     className="w-full h-full object-contain"
                   />
@@ -321,7 +321,7 @@ export default function SimpsonHealthcare() {
           >
 
             <img
-              src="/assets/banner.png"
+              src="./assets/banner.png"
               alt="Simpson Healthcare"
               className="
                 w-full

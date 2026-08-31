@@ -275,7 +275,7 @@ export default function FarmsCottage() {
                 </div>
 
                 <img
-                  src="/assets/farm_about.jpeg"
+                  src="./assets/farm_about.jpeg"
                   alt="Swasth Sampada Farms"
                   className="h-90 w-auto object-contain relative z-10"
                 />

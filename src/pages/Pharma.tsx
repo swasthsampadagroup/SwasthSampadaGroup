@@ -228,7 +228,7 @@ export default function Pharma() {
               {/* LOGO */}
               <div className="bg-gradient-to-br from-forest-50 to-gray-50 p-8 flex items-center justify-center flex-shrink-0 w-full lg:w-auto">
                 <img
-                  src="/assets/SSHealthcare1.png"
+                  src="./assets/SSHealthcare1.png"
                   alt="Swasth Sampada Healthcare Pvt. Ltd."
                   className="h-28 w-40 object-contain"
                 />
@@ -338,7 +338,7 @@ export default function Pharma() {
               {/* LOGO */}
               <div className="bg-gradient-to-br from-gray-50 to-white p-8 flex items-center justify-center flex-shrink-0 w-full lg:w-auto">
                 <img
-                  src="/assets/Healthcare1.png"
+                  src="./assets/Healthcare1.png"
                   alt="Simpson Healthcare"
                   className="h-28 w-40 object-contain"
                 />

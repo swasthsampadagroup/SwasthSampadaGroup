@@ -85,7 +85,7 @@ export default function Navbar() {
           className="flex items-center gap-3 flex-shrink-0"
         >
           <img
-            src="/assets/Group.png"
+            src="./assets/Group.png"
             alt="Swasth Sampada Group Logo"
             className="h-20 w-auto object-contain"
           />

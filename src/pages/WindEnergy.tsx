@@ -55,7 +55,7 @@ export default function WindEnergy() {
                 <div className="absolute inset-0 opacity-5">
                   <Wind size={300} className="absolute -bottom-10 -right-10 text-forest-800" />
                 </div>
-                <img src="/assets/wind_about.jpeg" alt="Wind Energy" className="h-100 w-auto object-contain relative z-10" />
+                <img src="./assets/wind_about.jpeg" alt="Wind Energy" className="h-100 w-auto object-contain relative z-10" />
               </div>
             </div>
           </div>

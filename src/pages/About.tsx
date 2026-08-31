@@ -66,7 +66,7 @@ export default function About() {
                   <Sparkles size={300} className="absolute -top-10 -right-10 text-forest-800" />
                 </div>
                 <img
-                  src="public/assets/about.jpeg"
+                  src="./assets/about.jpeg"
                   alt="Swasth Sampada Group"
                   className="h-90 w-auto object-contain relative z-10"
                 />

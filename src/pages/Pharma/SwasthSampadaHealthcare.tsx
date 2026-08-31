@@ -381,7 +381,7 @@ export default function SwasthSampadaHealthcare() {
               <div className="flex justify-center">
                 <div className="w-48 h-48 bg-gradient-to-br from-gray-50 to-white border border-gray-100 flex items-center justify-center p-8">
                   <img
-                    src="/assets/SSHealthcare1.png"
+                    src="./assets/SSHealthcare1.png"
                     alt="Swasth Sampada Healthcare Pvt. Ltd."
                     className="w-full h-full object-contain"
                     onError={(e) => {
@@ -871,7 +871,7 @@ export default function SwasthSampadaHealthcare() {
                     ================================================= */
 
                     <img
-                      src="/assets/medicines/SQ-PRO.png"
+                      src="./assets/medicines/SQ-PRO.png"
                       alt="Swasth Sampada Healthcare product"
                       className="
                         max-w-full

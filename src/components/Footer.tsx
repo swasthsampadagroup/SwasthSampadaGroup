@@ -116,7 +116,7 @@ export default function Footer() {
         <div>
           <Link to="/" className="inline-block">
             <img
-              src="/assets/Group.png"
+              src="./assets/Group.png"
               alt="Swasth Sampada Group"
               className="h-40 w-80 object-contain mb-5"
             />

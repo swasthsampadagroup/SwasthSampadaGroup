@@ -11,7 +11,7 @@ const divisions = [
     icon: Heart,
     description: 'Healthcare excellence through Swasth Sampada Healthcare Pvt. Ltd. and Simpsons Healthcare, delivering quality medicines across multiple therapeutic categories.',
     logos: [
-      { src: 'public/assets/SSHealthcare1.png', alt: 'Swasth Sampada Healthcare' },
+      { src: './assets/SSHealthcare1.png', alt: 'Swasth Sampada Healthcare' },
     ],
     cta: 'Explore Pharma',
   },
@@ -20,7 +20,7 @@ const divisions = [
     path: '/farms-cottage',
     icon: Leaf,
     description: 'Organic farming, rose cultivation, and a peaceful cottage retreat — nurturing nature through sustainable agricultural practices.',
-    logos: [{ src: '/public/assets/Farms.png', alt: 'Swasth Sampada Farms' }],
+    logos: [{ src: './assets/Farms.png', alt: 'Swasth Sampada Farms' }],
     cta: 'Explore Farms',
   },
   {
@@ -28,7 +28,7 @@ const divisions = [
     path: '/cumin-organics',
     icon: Factory,
     description: 'Premium organic manufacturing with a focus on quality cumin production, research-driven processes, and world-class infrastructure.',
-    logos: [{ src: '/public/assets/Organics.png', alt: 'Cumin Organics' }],
+    logos: [{ src: './assets/Organics.png', alt: 'Cumin Organics' }],
     cta: 'Explore',
   },
   {
@@ -36,7 +36,7 @@ const divisions = [
     path: '/wind-energy',
     icon: Wind,
     description: 'Renewable energy solutions including wind power generation, EV charging infrastructure, and green energy projects for a sustainable future.',
-    logos: [{ src: '/public/assets/Wind.png', alt: 'Wind Energy' }],
+    logos: [{ src: './assets/Wind.png', alt: 'Wind Energy' }],
     cta: 'Explore',
   },
 ];
@@ -50,34 +50,34 @@ const values = [
 
 const orbitLogos = [
   {
-    src: "/assets/SSHealthcare1.png",
+    src: "./assets/SSHealthcare1.png",
     alt: "Healthcare",
     label: "SSHC",
 
   },
   {
-    src: "/assets/Farms.png",
+    src: "./assets/Farms.png",
     alt: "Swasth Sampada Farms",
     label: "FARMS",
   },
   {
-    src: "/assets/Healthcare1.png",
+    src: "./assets/Healthcare1.png",
     alt: "Simpsons Healthcare",
     label: "HEALTHCARE",
 
   },
   {
-    src: "/assets/Organics.png",
+    src: "./assets/Organics.png",
     alt: "Organic Products",
     label: "CUMIN",
   },
   {
-    src: "/assets/Wind.png",
+    src: "./assets/Wind.png",
     alt: "Wind Energy",
     label: "ENERGY",
   },
   {
-    src: "/assets/EV.png",
+    src: "./assets/EV.png",
     alt: "EV Charging",
     label: "EV",
   },
@@ -168,7 +168,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-40 h-40 rounded-full bg-white shadow-2xl flex items-center justify-center p-4">
                     <img
-                      src="public/assets/Group.png"
+                      src="./assets/Group.png"
                       alt="Swasth Sampada Group"
                       className="object-contain"
                     />
