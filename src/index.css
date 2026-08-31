@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    @apply text-gray-700 antialiased;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-heading text-3xl md:text-4xl lg:text-5xl font-bold;
+  }
+
+  .section-subheading {
+    @apply font-body text-base md:text-lg text-gray-500 leading-relaxed;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-forest-800 text-white font-body font-semibold px-7 py-3.5 rounded-none border-2 border-forest-800 transition-all duration-300 hover:bg-transparent hover:text-forest-800 tracking-wide text-sm uppercase;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-white text-white font-body font-semibold px-7 py-3.5 rounded-none transition-all duration-300 hover:bg-white hover:text-forest-900 tracking-wide text-sm uppercase;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center gap-2 bg-gold-400 text-white font-body font-semibold px-7 py-3.5 rounded-none transition-all duration-300 hover:bg-gold-500 tracking-wide text-sm uppercase;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+  }
+
+  .divider-gold {
+    @apply w-16 h-0.5 bg-gold-400;
+  }
+
+  .divider-green {
+    @apply w-16 h-0.5 bg-forest-700;
+  }
+
+  .nav-link {
+    @apply relative font-body font-medium text-sm tracking-wide transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-gold-400 transition-all duration-300;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .transition-400 {
+    transition-duration: 400ms;
+  }}
+
+/* Reveal animation classes */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #166534;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #14532d;
+}
+
+/* Ripple effect */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s, opacity 0.6s;
+  opacity: 0;
+}
+
+.ripple:active::before {
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
