@@ -57,7 +57,7 @@ export default function CuminOrganics() {
                 <div className="absolute inset-0 opacity-5">
                   <Factory size={300} className="absolute -bottom-10 -right-10 text-forest-800" />
                 </div>
-                <img src="./assets/Cumin_about.jpeg" alt="Cumin Organics" className="h-100 w-auto object-contain relative z-10" />
+                <img src="/SwasthSampadaGroup/assets/Cumin_about.jpeg" alt="Cumin Organics" className="h-100 w-auto object-contain relative z-10" />
               </div>
             </div>
           </div>

@@ -125,7 +125,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/smilet_5mg.png',
+    image: './Images/smilet_5mg.png',
   },
   {
     id: 6,
@@ -135,7 +135,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Cr.png',
+    image: './Images/Cr.png',
   },
   {
     id: 7,
@@ -145,7 +145,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/chirofit_F.png',
+    image: './Images/chirofit_F.png',
   },
   {
     id: 8,
@@ -155,7 +155,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Entrarich_10.png',
+    image: './Images/Entrarich_10.png',
   },
   {
     id: 9,
@@ -165,7 +165,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/assets/medicines/S-ELITE.png',
+    image: './assets/medicines/S-ELITE.png',
   },
   {
     id: 10,
@@ -175,7 +175,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Syrup formulation from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/SS_Zyne_Sryup.png',
+    image: './Images/SS_Zyne_Sryup.png',
   },
   {
     id: 11,
@@ -185,7 +185,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Simfert_max.png',
+    image: './Images/Simfert_max.png',
   },
   {
     id: 12,
@@ -195,7 +195,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Simfert_f.png',
+    image: './Images/Simfert_f.png',
   },
   {
     id: 13,
@@ -205,7 +205,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Dheacure.png',
+    image: './Images/Dheacure.png',
   },
   {
     id: 14,
@@ -215,7 +215,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical formulation from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/lco9d.png',
+    image: './Images/lco9d.png',
   },
   {
     id: 15,
@@ -225,7 +225,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Simfert-gold.png',
+    image: './Images/Simfert-gold.png',
   },
   {
     id: 16,
@@ -235,7 +235,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/SQ_pro.png',
+    image: './Images/SQ_pro.png',
   },
   {
     id: 17,
@@ -245,7 +245,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/xt.png',
+    image: './Images/xt.png',
   },
   {
     id: 18,
@@ -255,7 +255,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/Z_fit.png',
+    image: './Images/Z_fit.png',
   },
   {
     id: 19,
@@ -265,7 +265,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/SS_Uti.png',
+    image: './Images/SS_Uti.png',
   },
   {
     id: 20,
@@ -275,7 +275,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/lco9.png',
+    image: './Images/lco9.png',
   },
 ];
 

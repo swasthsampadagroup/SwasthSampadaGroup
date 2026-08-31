@@ -124,35 +124,35 @@ const cottageFeatures = [
 const galleryItems = [
   {
     label: 'Rose Farm',
-    image: '/Images/001.jpeg',
+    image: './Images/001.jpeg',
   },
   {
     label: 'Organic Farming',
-    image: '/Images/002.jpeg',
+    image: './Images/002.jpeg',
   },
   {
     label: 'Vegetables',
-    image: '/Images/003.jpeg',
+    image: './Images/003.jpeg',
   },
   {
     label: 'Fruits',
-    image: '/Images/004.jpeg',
+    image: './Images/004.jpeg',
   },
   {
     label: 'Flowers',
-    image: '/Images/005.jpeg',
+    image: './Images/005.jpeg',
   },
   {
     label: 'Cottage Exterior',
-    image: '/Images/006.jpeg',
+    image: './Images/006.jpeg',
   },
   {
     label: 'Cottage Interior',
-    image: '/Images/007.jpeg',
+    image: './Images/007.jpeg',
   },
   {
     label: 'Garden',
-    image: '/Images/008.jpeg',
+    image: './Images/008.jpeg',
   },
 ];
 

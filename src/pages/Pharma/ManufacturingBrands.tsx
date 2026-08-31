@@ -119,28 +119,28 @@ const manufacturingMedicines: ManufacturingMedicine[] = [
     name: 'SS ZYNE SYRUP',
     category: 'Healthcare Supplements',
     dosage: 'Syrup',
-    image: '/Images/SS_Zyne_Sryup.png',
+    image: './Images/SS_Zyne_Sryup.png',
   },
   {
     id: 7,
     name: 'ENTRARICH-10',
     category: "Women's Healthcare",
     dosage: 'Tablet',
-    image: '/Images/Entrarich_10.png',
+    image: './Images/Entrarich_10.png',
   },
   {
     id: 8,
     name: 'ENTRARICH CAP',
     category: "Women's Healthcare",
     dosage: 'Capsule',
-    image: '/Images/ENTRA_RICH.png',
+    image: './Images/ENTRA_RICH.png',
   },
   {
     id: 9,
     name: 'SIMFERT MAX',
     category: "Women's Healthcare",
     dosage: 'Tablet',
-    image: '/Images/Simfert_max.png',
+    image: './Images/Simfert_max.png',
   },
 ];
 
