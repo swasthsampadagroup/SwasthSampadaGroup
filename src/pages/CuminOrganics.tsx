@@ -108,17 +108,17 @@ export default function CuminOrganics() {
               {
                 name: 'Pharmaceutical Medicines',
                 desc: 'Quality medicines manufactured through controlled pharmaceutical processes with a strong focus on safety, consistency, and reliability.',
-                image: '/assets/009.jpeg',
+                image: './assets/009.jpeg',
               },
               {
                 name: 'Healthcare Formulations',
                 desc: 'A diverse range of pharmaceutical formulations developed and manufactured to support evolving healthcare requirements.',
-                image: '/assets/010.jpeg',
+                image: './assets/010.jpeg',
               },
               {
                 name: 'Specialised Products',
                 desc: 'Specialised healthcare products manufactured with careful attention to quality, formulation, reliability, and patient needs.',
-                image: '/assets/011.jpeg',
+                image: './assets/011.jpeg',
               },
             ].map((p, i) => (
               <div

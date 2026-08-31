@@ -85,7 +85,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/addzoled.png',
+    image: './Images/addzoled.png',
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/chirofit_M.png',
+    image: './Images/chirofit_M.png',
   },
   {
     id: 3,
@@ -105,7 +105,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/doxy.png',
+    image: './Images/doxy.png',
   },
   {
     id: 4,
@@ -115,7 +115,7 @@ const medicines: Medicine[] = [
     composition: 'Product composition',
     description:
       'Pharmaceutical product from the Swasth Sampada Healthcare portfolio.',
-    image: '/Images/smilet_2.5.png',
+    image: './Images/smilet_2.5.png',
   },
   {
     id: 5,
